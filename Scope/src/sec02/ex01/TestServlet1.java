@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@WebServlet("/first/test") //정확히 이름까지 일치하는 URL패턴
+//@WebServlet("/first/test") //정확히 이름까지 일치하는 URL패턴
 	public class TestServlet1 extends HttpServlet {
 		public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 			request.setCharacterEncoding("utf-8");

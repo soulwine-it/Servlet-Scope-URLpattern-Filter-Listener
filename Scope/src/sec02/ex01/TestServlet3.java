@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("*.do") //확장자만 일치하는 패턴
+//@WebServlet("*.do") //확장자만 일치하는 패턴
 //@WebServlet("/*") 모든 요청 URL패턴
 
 public class TestServlet3 extends HttpServlet {
